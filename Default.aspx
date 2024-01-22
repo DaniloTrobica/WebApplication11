@@ -31,10 +31,8 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" Text="Pošalji" Height="21px" Width="50px" />
+        <asp:Button ID="Button1" runat="server" Text="Pošalji" Height="21px" OnClick="Button1_Click" Width="50px" />
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-
-        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
 
     </div>
 
