@@ -68,7 +68,7 @@ namespace WebApplication11
         private void izaberiMesto(object o, EventArgs e)
         {
             Button b = (Button)o;
-            txtSediste.Text = b.Text;
+            TextBox1.Text = b.Text;
         }
         public void kreirajTabelu()
         {
